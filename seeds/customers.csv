@@ -1,0 +1,21 @@
+customer_id,customer_name,customer_email,customer_city
+1,Customer 1,customer1@example.com,Ibadan
+2,Customer 2,customer2@example.com,Kano
+3,Customer 3,customer3@example.com,Port Harcourt
+4,Customer 4,customer4@example.com,Kano
+5,Customer 5,customer5@example.com,Kano
+6,Customer 6,customer6@example.com,Lagos
+7,Customer 7,customer7@example.com,Port Harcourt
+8,Customer 8,customer8@example.com,Port Harcourt
+9,Customer 9,customer9@example.com,Port Harcourt
+10,Customer 10,customer10@example.com,Kano
+11,Customer 11,customer11@example.com,Ibadan
+12,Customer 12,customer12@example.com,Port Harcourt
+13,Customer 13,customer13@example.com,Kano
+14,Customer 14,customer14@example.com,Lagos
+15,Customer 15,customer15@example.com,Ibadan
+16,Customer 16,customer16@example.com,Lagos
+17,Customer 17,customer17@example.com,Ibadan
+18,Customer 18,customer18@example.com,Kano
+19,Customer 19,customer19@example.com,Abuja
+20,Customer 20,customer20@example.com,Ibadan

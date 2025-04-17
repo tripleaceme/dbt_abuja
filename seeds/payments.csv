@@ -1,0 +1,51 @@
+payment_id,order_id,payment_method,payment_status,payment_date
+1,1,Cash,Successful,2024-03-21
+2,2,Card,Failed,2024-03-08
+3,3,Cash,Successful,2024-03-03
+4,4,Bank Transfer,Successful,2024-03-07
+5,5,Bank Transfer,Failed,2024-03-07
+6,6,Bank Transfer,Pending,2024-03-09
+7,7,Card,Successful,2024-03-09
+8,8,Bank Transfer,Failed,2024-03-04
+9,9,Card,Successful,2024-03-20
+10,10,Bank Transfer,Successful,2024-03-04
+11,11,Cash,Successful,2024-03-20
+12,12,Cash,Successful,2024-03-02
+13,13,USSD,Pending,2024-03-28
+14,14,Cash,Successful,2024-03-27
+15,15,USSD,Successful,2024-03-22
+16,16,Cash,Successful,2024-03-18
+17,17,Card,Pending,2024-03-30
+18,18,Cash,Successful,2024-03-08
+19,19,USSD,Successful,2024-03-07
+20,20,USSD,Pending,2024-03-13
+21,21,Bank Transfer,Pending,2024-03-24
+22,22,Card,Pending,2024-03-14
+23,23,Cash,Successful,2024-03-17
+24,24,Bank Transfer,Pending,2024-03-05
+25,25,Cash,Pending,2024-03-13
+26,26,Cash,Successful,2024-03-28
+27,27,Bank Transfer,Pending,2024-03-25
+28,28,Bank Transfer,Successful,2024-03-06
+29,29,Bank Transfer,Failed,2024-03-09
+30,30,Bank Transfer,Pending,2024-03-28
+31,31,Bank Transfer,Failed,2024-03-12
+32,32,Cash,Successful,2024-03-30
+33,33,Bank Transfer,Pending,2024-03-04
+34,34,Card,Successful,2024-03-29
+35,35,USSD,Failed,2024-03-27
+36,36,Bank Transfer,Successful,2024-03-22
+37,37,Bank Transfer,Pending,2024-03-28
+38,38,Cash,Pending,2024-03-25
+39,39,Bank Transfer,Failed,2024-03-21
+40,40,Bank Transfer,Successful,2024-03-04
+41,41,Bank Transfer,Pending,2024-03-19
+42,42,Cash,Failed,2024-03-03
+43,43,Bank Transfer,Pending,2024-03-28
+44,44,USSD,Pending,2024-03-22
+45,45,Cash,Successful,2024-03-30
+46,46,USSD,Pending,2024-03-26
+47,47,Cash,Successful,2024-03-14
+48,48,Bank Transfer,Pending,2024-03-02
+49,49,USSD,Failed,2024-03-26
+50,50,Cash,Pending,2024-03-15

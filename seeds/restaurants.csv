@@ -1,0 +1,11 @@
+restaurant_id,restaurant_name,restaurant_city,cuisine_type
+1,Restaurant 1,Lagos,Indian
+2,Restaurant 2,Kano,Fast Food
+3,Restaurant 3,Ibadan,Fast Food
+4,Restaurant 4,Abuja,Nigerian
+5,Restaurant 5,Abuja,Indian
+6,Restaurant 6,Port Harcourt,Continental
+7,Restaurant 7,Port Harcourt,Indian
+8,Restaurant 8,Lagos,Continental
+9,Restaurant 9,Ibadan,Nigerian
+10,Restaurant 10,Ibadan,Chinese

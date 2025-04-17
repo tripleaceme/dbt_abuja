@@ -1,0 +1,215 @@
+[0m13:02:44.414888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ec49760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c55a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c62790>]}
+
+
+============================== 13:02:44.422261 | 93aa8ada-e361-4cfd-bb62-33bc2b495101 ==============================
+[0m13:02:44.422261 [info ] [MainThread]: Running with dbt=1.7.4
+[0m13:02:44.423425 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/mac/Documents/dbt/food_delivery/logs', 'profiles_dir': '/Users/mac/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:02:44.643443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '93aa8ada-e361-4cfd-bb62-33bc2b495101', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c6f040>]}
+[0m13:02:44.644371 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:02:44.646120 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:02:44.651477 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.33545786, "process_user_time": 3.144623, "process_kernel_time": 0.310303, "process_mem_max_rss": "100110336", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:02:44.652586 [debug] [MainThread]: Command `cli deps` succeeded at 13:02:44.652355 after 0.34 seconds
+[0m13:02:44.653127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ec49760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110d42ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110c220d0>]}
+[0m13:02:44.653648 [debug] [MainThread]: Flushing usage events
+[0m20:56:31.107184 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c360490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e35d970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e36faf0>]}
+
+
+============================== 20:56:31.119197 | 01e15608-3292-4d12-9aae-73ae2196a8a3 ==============================
+[0m20:56:31.119197 [info ] [MainThread]: Running with dbt=1.7.4
+[0m20:56:31.122076 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/mac/Documents/dbt/food_delivery/logs', 'profiles_dir': '/Users/mac/Documents/dbt/food_delivery', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt ', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:56:31.593940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '01e15608-3292-4d12-9aae-73ae2196a8a3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e36f340>]}
+[0m20:56:31.595643 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m20:56:31.598081 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m20:56:31.605990 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.75129896, "process_user_time": 5.885716, "process_kernel_time": 0.471323, "process_mem_max_rss": "99950592", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m20:56:31.608425 [debug] [MainThread]: Command `cli deps` succeeded at 20:56:31.607959 after 0.75 seconds
+[0m20:56:31.609599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c360490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e335f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e3350a0>]}
+[0m20:56:31.610841 [debug] [MainThread]: Flushing usage events
+[0m22:13:01.500950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f555880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115248b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11156afa0>]}
+
+
+============================== 22:13:01.507683 | 3f456ec0-a85f-4b3a-bf13-79c4f5fbd4b8 ==============================
+[0m22:13:01.507683 [info ] [MainThread]: Running with dbt=1.7.4
+[0m22:13:01.508719 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mac/Documents/dbt/food_delivery', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/mac/Documents/dbt/food_delivery/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:13:01.658930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3f456ec0-a85f-4b3a-bf13-79c4f5fbd4b8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11156a8b0>]}
+[0m22:13:01.659825 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:13:01.662587 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m22:13:01.665832 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.25484684, "process_user_time": 5.071523, "process_kernel_time": 0.370919, "process_mem_max_rss": "100397056", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m22:13:01.666743 [debug] [MainThread]: Command `cli deps` succeeded at 22:13:01.666465 after 0.26 seconds
+[0m22:13:01.667518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f555880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11152b040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1115df2b0>]}
+[0m22:13:01.668412 [debug] [MainThread]: Flushing usage events
+[0m22:17:34.733667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fedd970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111eaf550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111ef4d60>]}
+
+
+============================== 22:17:34.743004 | 77c2506f-7f33-4568-ad02-8feddfe59860 ==============================
+[0m22:17:34.743004 [info ] [MainThread]: Running with dbt=1.7.4
+[0m22:17:34.744416 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/mac/Documents/dbt/food_delivery', 'log_path': '/Users/mac/Documents/dbt/food_delivery/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt ', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:17:34.964620 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '77c2506f-7f33-4568-ad02-8feddfe59860', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111ef4d60>]}
+[0m22:17:34.967495 [info ] [MainThread]: Created packages.yml
+[0m22:17:34.970331 [info ] [MainThread]: Added new package dbt-labs/codegen@0.12.1 to /Users/mac/Documents/dbt/food_delivery/packages.yml
+[0m22:17:34.973137 [debug] [MainThread]: Set downloads directory='/var/folders/nh/kprmp5xn57l72mppyplsnj100000gq/T/dbt-downloads-pii82i65'
+[0m22:17:34.974508 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m22:17:36.717296 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m22:17:36.723087 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json
+[0m22:17:37.375924 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json 200
+[0m22:17:37.385702 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m22:17:37.673434 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m22:17:37.703656 [info ] [MainThread]: Updating lock file in file path: /Users/mac/Documents/dbt/food_delivery/package-lock.yml
+[0m22:17:37.709414 [debug] [MainThread]: Set downloads directory='/var/folders/nh/kprmp5xn57l72mppyplsnj100000gq/T/dbt-downloads-7srom15a'
+[0m22:17:37.718697 [info ] [MainThread]: Installing dbt-labs/codegen
+[0m22:17:41.111095 [info ] [MainThread]: Installed from version 0.12.1
+[0m22:17:41.111769 [info ] [MainThread]: Updated version available: 0.13.1
+[0m22:17:41.112740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '77c2506f-7f33-4568-ad02-8feddfe59860', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111eafee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111f7ea30>]}
+[0m22:17:41.113444 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m22:17:43.815177 [info ] [MainThread]: Installed from version 1.3.0
+[0m22:17:43.816088 [info ] [MainThread]: Up to date!
+[0m22:17:43.818056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '77c2506f-7f33-4568-ad02-8feddfe59860', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111f69040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111fac130>]}
+[0m22:17:43.819453 [info ] [MainThread]: 
+[0m22:17:43.820357 [info ] [MainThread]: Updates available for packages: ['dbt-labs/codegen']                 
+Update your versions in packages.yml, then run dbt deps
+[0m22:17:43.827350 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 9.194763, "process_user_time": 3.571515, "process_kernel_time": 0.575396, "process_mem_max_rss": "106065920", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m22:17:43.829152 [debug] [MainThread]: Command `cli deps` succeeded at 22:17:43.828760 after 9.20 seconds
+[0m22:17:43.830072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10fedd970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111fb0af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111eaf700>]}
+[0m22:17:43.830886 [debug] [MainThread]: Flushing usage events
+[0m22:17:49.279223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102a6eee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a740d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a3da00>]}
+
+
+============================== 22:17:49.284095 | ee29a188-6292-4458-8224-59458dd7a9bc ==============================
+[0m22:17:49.284095 [info ] [MainThread]: Running with dbt=1.7.4
+[0m22:17:49.285488 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mac/Documents/dbt/food_delivery', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/mac/Documents/dbt/food_delivery/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt ', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:17:49.460106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ee29a188-6292-4458-8224-59458dd7a9bc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a6de20>]}
+[0m22:17:49.463329 [debug] [MainThread]: Set downloads directory='/var/folders/nh/kprmp5xn57l72mppyplsnj100000gq/T/dbt-downloads-g0ljizbc'
+[0m22:17:49.464204 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m22:17:49.644701 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m22:17:49.650237 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json
+[0m22:17:49.958289 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json 200
+[0m22:17:49.967340 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m22:17:50.124626 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m22:17:50.156242 [info ] [MainThread]: Updating lock file in file path: /Users/mac/Documents/dbt/food_delivery/package-lock.yml
+[0m22:17:50.213481 [debug] [MainThread]: Set downloads directory='/var/folders/nh/kprmp5xn57l72mppyplsnj100000gq/T/dbt-downloads-tw4qzv7j'
+[0m22:17:50.221354 [info ] [MainThread]: Installing dbt-labs/codegen
+[0m22:17:51.291813 [info ] [MainThread]: Installed from version 0.12.1
+[0m22:17:51.292796 [info ] [MainThread]: Updated version available: 0.13.1
+[0m22:17:51.293969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'ee29a188-6292-4458-8224-59458dd7a9bc', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b44be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b53970>]}
+[0m22:17:51.294803 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m22:17:53.640988 [info ] [MainThread]: Installed from version 1.3.0
+[0m22:17:53.642030 [info ] [MainThread]: Up to date!
+[0m22:17:53.643262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'ee29a188-6292-4458-8224-59458dd7a9bc', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b053d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b1afd0>]}
+[0m22:17:53.644336 [info ] [MainThread]: 
+[0m22:17:53.647201 [info ] [MainThread]: Updates available for packages: ['dbt-labs/codegen']                 
+Update your versions in packages.yml, then run dbt deps
+[0m22:17:53.657799 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 4.471677, "process_user_time": 3.572182, "process_kernel_time": 0.477679, "process_mem_max_rss": "103903232", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m22:17:53.659228 [debug] [MainThread]: Command `cli deps` succeeded at 22:17:53.658849 after 4.47 seconds
+[0m22:17:53.660499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102a6eee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104a21be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104b053d0>]}
+[0m22:17:53.661403 [debug] [MainThread]: Flushing usage events
+[0m08:31:04.055907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ba0d760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d9dcd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da23130>]}
+
+
+============================== 08:31:04.062761 | 66cf8eb9-f96c-404b-aa1d-a8cd164628b5 ==============================
+[0m08:31:04.062761 [info ] [MainThread]: Running with dbt=1.7.4
+[0m08:31:04.063938 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mac/Documents/dbt/food_delivery', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/mac/Documents/dbt/food_delivery/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt ', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:31:04.299421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '66cf8eb9-f96c-404b-aa1d-a8cd164628b5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da23e80>]}
+[0m08:31:04.371228 [debug] [MainThread]: Set downloads directory='/var/folders/nh/kprmp5xn57l72mppyplsnj100000gq/T/dbt-downloads-w0y2_iyt'
+[0m08:31:04.372450 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m08:31:05.086262 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m08:31:05.089741 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json
+[0m08:31:05.928069 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json 200
+[0m08:31:05.947630 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m08:31:07.703222 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m08:31:07.711680 [info ] [MainThread]: Installing dbt-labs/codegen
+[0m08:31:11.360697 [info ] [MainThread]: Installed from version 0.12.1
+[0m08:31:11.362098 [info ] [MainThread]: Updated version available: 0.13.1
+[0m08:31:11.363276 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '66cf8eb9-f96c-404b-aa1d-a8cd164628b5', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10db08190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10db08a90>]}
+[0m08:31:11.364105 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m08:31:23.734383 [info ] [MainThread]: Installed from version 1.3.0
+[0m08:31:23.736480 [info ] [MainThread]: Up to date!
+[0m08:31:23.738485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '66cf8eb9-f96c-404b-aa1d-a8cd164628b5', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d1d8b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d9e30a0>]}
+[0m08:31:23.739433 [info ] [MainThread]: 
+[0m08:31:23.740562 [info ] [MainThread]: Updates available for packages: ['dbt-labs/codegen']                 
+Update your versions in packages.yml, then run dbt deps
+[0m08:31:23.745111 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 19.815144, "process_user_time": 5.573916, "process_kernel_time": 0.631425, "process_mem_max_rss": "99639296", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m08:31:23.746011 [debug] [MainThread]: Command `cli deps` succeeded at 08:31:23.745808 after 19.82 seconds
+[0m08:31:23.746539 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ba0d760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d1d8b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dac7be0>]}
+[0m08:31:23.747038 [debug] [MainThread]: Flushing usage events
+[0m18:28:19.469151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e12a550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1100f98b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110140fa0>]}
+
+
+============================== 18:28:19.490044 | a9c41e7a-3bc4-49f3-82c6-f566fd013012 ==============================
+[0m18:28:19.490044 [info ] [MainThread]: Running with dbt=1.7.4
+[0m18:28:19.494629 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mac/Documents/dbt/food_delivery', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/mac/Documents/dbt/food_delivery/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:28:20.318410 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a9c41e7a-3bc4-49f3-82c6-f566fd013012', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101408b0>]}
+[0m18:28:20.576853 [debug] [MainThread]: Set downloads directory='/var/folders/nh/kprmp5xn57l72mppyplsnj100000gq/T/dbt-downloads-h4qb9z7f'
+[0m18:28:20.578942 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m18:28:29.027651 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m18:28:29.038130 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json
+[0m18:28:34.116913 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json 200
+[0m18:28:34.133084 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m18:29:04.807321 [debug] [MainThread]: External call exception: HTTPSConnectionPool(host='hub.getdbt.com', port=443): Read timed out. (read timeout=30)
+[0m18:29:04.809549 [debug] [MainThread]: Retrying external call. Attempt: 0 Max attempts: 5
+[0m18:29:05.814905 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m18:29:09.561085 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m18:29:09.582465 [info ] [MainThread]: Installing dbt-labs/codegen
+[0m18:29:11.276121 [info ] [MainThread]: Installed from version 0.12.1
+[0m18:29:11.278920 [info ] [MainThread]: Updated version available: 0.13.1
+[0m18:29:11.282629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'a9c41e7a-3bc4-49f3-82c6-f566fd013012', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11011e9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110230e80>]}
+[0m18:29:11.286410 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m18:29:13.506280 [info ] [MainThread]: Installed from version 1.3.0
+[0m18:29:13.508614 [info ] [MainThread]: Up to date!
+[0m18:29:13.511218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'a9c41e7a-3bc4-49f3-82c6-f566fd013012', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101f1760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101c2af0>]}
+[0m18:29:13.513737 [info ] [MainThread]: 
+[0m18:29:13.516770 [info ] [MainThread]: Updates available for packages: ['dbt-labs/codegen']                 
+Update your versions in packages.yml, then run dbt deps
+[0m18:29:13.653621 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 54.516438, "process_user_time": 10.880529, "process_kernel_time": 1.456055, "process_mem_max_rss": "100724736", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m18:29:13.657056 [debug] [MainThread]: Command `cli deps` succeeded at 18:29:13.656215 after 54.52 seconds
+[0m18:29:13.660090 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e12a550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1101f10a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11011e6d0>]}
+[0m18:29:13.665564 [debug] [MainThread]: Flushing usage events
+[0m22:03:03.467857 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10efe2ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110fb27c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110fe1520>]}
+
+
+============================== 22:03:03.474211 | 7fa996aa-043d-418a-8fc9-fd778b8b9e59 ==============================
+[0m22:03:03.474211 [info ] [MainThread]: Running with dbt=1.7.4
+[0m22:03:03.475280 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/mac/Documents/dbt/food_delivery', 'log_path': '/Users/mac/Documents/dbt/food_delivery/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt clean', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:03:03.705078 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7fa996aa-043d-418a-8fc9-fd778b8b9e59', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11107d1c0>]}
+[0m22:03:03.807856 [debug] [MainThread]: Resource report: {"command_name": "clean", "command_success": true, "command_wall_clock_time": 0.42977336, "process_user_time": 3.202139, "process_kernel_time": 0.331864, "process_mem_max_rss": "101785600", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m22:03:03.809593 [debug] [MainThread]: Command `dbt clean` succeeded at 22:03:03.808951 after 0.43 seconds
+[0m22:03:03.811054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10efe2ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110ffee20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1110b63d0>]}
+[0m22:03:03.811717 [debug] [MainThread]: Flushing usage events
+[0m23:21:19.087575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e9e3760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1109b1d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1109f70d0>]}
+
+
+============================== 23:21:19.097428 | 4ccf5e25-78ff-4e7b-9ce2-c76d5bc906e2 ==============================
+[0m23:21:19.097428 [info ] [MainThread]: Running with dbt=1.7.4
+[0m23:21:19.098954 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/mac/Documents/dbt/food_delivery/logs', 'profiles_dir': '/Users/mac/Documents/dbt/food_delivery', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt ', 'send_anonymous_usage_stats': 'True'}
+[0m23:21:19.364970 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4ccf5e25-78ff-4e7b-9ce2-c76d5bc906e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1109f7e80>]}
+[0m23:21:19.373427 [debug] [MainThread]: Set downloads directory='/var/folders/nh/kprmp5xn57l72mppyplsnj100000gq/T/dbt-downloads-aqdgl4ly'
+[0m23:21:19.374644 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m23:21:21.500428 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m23:21:21.504564 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json
+[0m23:21:21.870628 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/codegen.json 200
+[0m23:21:21.908965 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m23:21:22.204324 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m23:21:22.214905 [info ] [MainThread]: Installing dbt-labs/codegen
+[0m23:21:24.625191 [info ] [MainThread]: Installed from version 0.12.1
+[0m23:21:24.626258 [info ] [MainThread]: Updated version available: 0.13.1
+[0m23:21:24.627548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '4ccf5e25-78ff-4e7b-9ce2-c76d5bc906e2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110a9cbe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110adf8e0>]}
+[0m23:21:24.635413 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m23:21:26.229986 [info ] [MainThread]: Installed from version 1.3.0
+[0m23:21:26.231027 [info ] [MainThread]: Up to date!
+[0m23:21:26.232129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '4ccf5e25-78ff-4e7b-9ce2-c76d5bc906e2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110adf250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110adf970>]}
+[0m23:21:26.233411 [info ] [MainThread]: 
+[0m23:21:26.234493 [info ] [MainThread]: Updates available for packages: ['dbt-labs/codegen']                 
+Update your versions in packages.yml, then run dbt deps
+[0m23:21:26.239210 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 7.3126073, "process_user_time": 5.972891, "process_kernel_time": 0.554341, "process_mem_max_rss": "102850560", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:21:26.241034 [debug] [MainThread]: Command `cli deps` succeeded at 23:21:26.240523 after 7.31 seconds
+[0m23:21:26.242240 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e9e3760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110a9c970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1109d5d30>]}
+[0m23:21:26.242951 [debug] [MainThread]: Flushing usage events
+[0m23:23:17.761087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10999c610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b98e460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b9afb80>]}
+
+
+============================== 23:23:17.768237 | 0a9233c8-343c-4fa2-a71c-dc1d56b73adc ==============================
+[0m23:23:17.768237 [info ] [MainThread]: Running with dbt=1.7.4
+[0m23:23:17.769038 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mac/Documents/dbt/food_delivery', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/mac/Documents/dbt/food_delivery/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt clean', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:23:17.912930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0a9233c8-343c-4fa2-a71c-dc1d56b73adc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b978bb0>]}
+[0m23:23:17.981285 [debug] [MainThread]: Resource report: {"command_name": "clean", "command_success": true, "command_wall_clock_time": 0.31258616, "process_user_time": 2.885077, "process_kernel_time": 0.371815, "process_mem_max_rss": "101793792", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m23:23:17.982361 [debug] [MainThread]: Command `dbt clean` succeeded at 23:23:17.982120 after 0.31 seconds
+[0m23:23:17.983131 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10999c610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b94ecd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ba31370>]}
+[0m23:23:17.984396 [debug] [MainThread]: Flushing usage events

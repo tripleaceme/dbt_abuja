@@ -1,0 +1,112 @@
+version : 2
+
+models:
+
+  - name: stg_customers
+    description: "Staging table for customers"
+    columns:
+      - name: customer_id
+        description: "Unique identifier for each customer"
+        tests:
+          - not_null
+          - unique
+      - name: customer_email
+        description: "Email address of the customer"
+        tests:
+          - not_null
+          - unique
+      - name: customer_name
+        description: "Full name of the customer"
+        tests:
+          - not_null
+      - name: customer_city
+        description: "City of the customer"
+        tests:
+          - not_null
+
+  - name: stg_resturants
+    description: "Staging table for restaurants"
+    columns:
+      - name: restaurant_id
+        description: "Unique identifier for each restaurant"
+        tests:
+          - not_null
+          - unique
+      - name: restaurant_name
+        description: "Name of the restaurant"
+        tests:
+          - not_null
+      - name: restaurant_city
+        description: "Location of the restaurant"
+        tests:
+          - not_null
+      - name: cuisine_type
+        description: "Type of cuisine offered by the restaurant"
+        tests:
+          - not_null
+
+  - name: stg_payments
+    description: "Staging table for payments"
+    columns:
+      - name: payment_id
+        description: "Unique identifier for each payment"
+        tests:
+          - not_null
+          - unique
+      - name: order_id
+        description: "Identifier for the order associated with the payment"
+        tests:
+          - not_null
+      - name: payment_date
+        description: "Date when the payment was made"
+        tests:
+          - not_null
+          - date_not_in_future
+
+      - name: payment_method  
+        description: "Method used for payment (e.g., card, cash)"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Card', 'USSD', 'Bank Transfer', 'Cash']
+      - name: payment_status
+        description: "Status of the payment (e.g., completed, pending)"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Successful', 'Pending', 'Failed']
+
+
+
+  - name: stg_orders
+    description: "Staging table for orders"
+    columns:
+      - name: order_id
+        description: "Unique identifier for each order"
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        description: "Identifier for the customer who placed the order"
+        tests:
+          - not_null
+      - name: restaurant_id
+        description: "Identifier for the restaurant where the order was placed"
+        tests:
+          - not_null
+      - name: order_date
+        description: "Date when the order was placed"
+        tests:
+          - not_null
+          - date_not_in_future
+          
+      - name: total_amount
+        description: "Total amount of the order"
+        tests:
+          - not_null
+      - name: order_status
+        description: "Status of the order (e.g., delivered, pending)"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Completed', 'Pending', 'Cancelled']

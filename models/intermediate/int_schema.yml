@@ -1,0 +1,33 @@
+version : 2
+
+models:
+  - name: int_order_payments
+    description: "This model is used to create intermediate tables for the food delivery app."
+    columns:
+      - name: order_id
+        description: "Unique identifier for each order."
+        data_type: integer
+      - name: customer_id
+        description: "Unique identifier for each customer."
+        data_type: integer
+      - name: restaurant_id
+        description: "Unique identifier for each restaurant."
+        data_type: integer
+      - name: order_date
+        description: "Date when the order was placed."
+        data_type: date
+      - name: total_amount
+        description: "Total amount of the order."
+        data_type: decimal
+      - name: order_status  
+        description: "Status of the order (e.g., delivered, pending)."
+        data_type: string
+      - name: payment_method
+        description: "Method used for payment (e.g., card, cash)."
+        data_type: string
+      - name: payment_status
+        description: "Status of the payment (e.g., completed, pending)."
+        data_type: string
+      - name: payment_date
+        description: "Date when the payment was made."
+        data_type: date

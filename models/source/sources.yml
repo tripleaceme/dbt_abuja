@@ -1,0 +1,73 @@
+version : 2
+
+sources:
+  - name: food_delivery
+    database: FoodDeliveryDB
+    schema: raw
+    tables:
+      - name: customers
+        description: "Customer details including names, emails, and addresses."
+        columns:
+          - name: customer_id
+            description: "Primary key for customers."
+            tests:
+              - unique
+              - not_null
+
+      - name: orders
+        # freshness:
+        #   warn_after: {count: 12, period: hour}
+        #   error_after: {count: 24, period: hour}
+        # loaded_at_field: order_date
+        description: "Orders placed by customers."
+        columns:
+          - name: order_id
+            description: "Primary key for orders."
+            tests:
+              - unique
+              - not_null
+
+          - name: customer_id
+            description: "Foreign key linking to customers."
+            tests:
+              - relationships:
+                  to: source('food_delivery', 'customers')
+                  field: customer_id
+
+          - name: resturant_id
+            description: "Foreign key linking to restaurants."
+            tests:
+              - relationships:
+                  to: source('food_delivery', 'restaurants')
+                  field: restaurant_id
+
+
+      - name: payment 
+        # freshness:
+        #   warn_after: {count: 12, period: hour}
+        #   error_after: {count: 24, period: hour}
+        # loaded_at_field: payment_date
+        description: "Payment information for each order."
+        columns:
+          - name: payment_id
+            description: "Primary key for payment."
+            tests:
+              - unique
+              - not_null
+
+          - name: order_id
+            description: "Foreign key linking to orders."
+            tests:
+              - relationships:
+                  to: source('food_delivery', 'orders')
+                  field: order_id
+
+
+      - name: restaurants
+        description: "Restaurant details including names and locations."
+        columns:
+          - name: restaurant_id
+            description: "Primary key for restaurants."
+            tests:
+              - unique
+              - not_null

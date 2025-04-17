@@ -1,0 +1,21 @@
+food_delivery:
+  outputs:
+    dev:
+      dbname: FoodDeliveryDB
+      host: localhost
+      pass: dbt_user
+      port: 5432
+      schema: raw
+      threads: 5
+      type: postgres
+      user: dbt_user
+    prod:
+      dbname: FoodDeliveryDB
+      host: localhost
+      pass: dbt_user
+      port: 5432
+      schema: prod
+      threads: 5
+      type: postgres
+      user: dbt_user
+  target: dev
